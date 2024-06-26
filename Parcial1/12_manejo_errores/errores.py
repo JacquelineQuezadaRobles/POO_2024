@@ -3,8 +3,8 @@
 
 #Ejemplo 1. Error cuando una variable no se genera.
 
-try
-nombre=input("Dame el nombre: ")
+try:
+    nombre=input("Dame el nombre: ")
 
 if len(nombre)>1:
     nombre_usuario="El nombre "
